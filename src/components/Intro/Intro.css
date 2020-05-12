@@ -1,0 +1,27 @@
+.intro {
+  text-align: left;
+}
+
+.header {
+  color: #fff;
+  font-size: 35px;
+  margin: 15px;
+}
+
+.subheader {
+  color: #fff;
+  font-size: 26px;
+  margin: 15px;
+}
+
+.button {
+  background-color: #fff;
+  border-radius: 30px;
+  color: hsl(257, 40%, 49%);
+  padding: 25px 95px;
+  text-align: center;
+  display: inline-block;
+  font-size: 25px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
