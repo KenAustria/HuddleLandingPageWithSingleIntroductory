@@ -1,0 +1,20 @@
+.mockups {
+	margin: auto;
+}
+
+.mockup img {
+	height: auto;
+	max-width: 100%;
+	vertical-align: middle;
+}
+
+@media screen and (max-width: 768px) {
+	.mockups {
+		margin: auto;
+	}
+	.mockup img {
+		width: 30%;
+		height: auto;
+		vertical-align: middle;
+	}
+}

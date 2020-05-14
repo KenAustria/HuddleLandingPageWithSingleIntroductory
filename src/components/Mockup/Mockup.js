@@ -1,10 +1,11 @@
 import React from 'react'
 import mockup from '../../images/illustration-mockups.svg'
+import './Mockup.css'
 
 const Mockup = () => {
 	return (
-		<div>
-			<img src={mockup} />
+		<div className='mockups'>
+			<img src={mockup} alt='mockup'/>
 		</div>
 	)
 }

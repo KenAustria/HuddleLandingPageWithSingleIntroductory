@@ -2,21 +2,23 @@ import React from 'react';
 import Logo from './components/Logo/Logo';
 import Mockup from './components/Mockup/Mockup';
 import Intro from './components/Intro/Intro';
+import Icons from './components/Icons/Icons';
 import './App.css';
 
 function App() {
   return (
-    <>
-			<div className='split left'>
-				<div className='hero'>
+    <div className='landing'>
+			<div className='left'>
+				<div className='logo-content'>
 					<Logo />
 					<Mockup />
 				</div>
 			</div>
-			<div className='split right'>
+			<div className='right'>
 				<Intro />
+				<Icons />
 			</div>
-    </>
+    </div>
   );
 }
 
