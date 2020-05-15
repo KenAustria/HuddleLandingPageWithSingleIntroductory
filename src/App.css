@@ -1,5 +1,6 @@
 .landing {
 	display: flex;
+	height: 100vh;
 }
 
 .left {
@@ -8,9 +9,9 @@
 	flex-direction: column;
 }
 
-.logo-content {
+.content {
 	margin: auto;
-	padding: 0 50px;
+	padding-left: 50px;
 }
 
 .right {
@@ -22,19 +23,20 @@
 	position: relative;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
 	.landing {
-		display: flex;
+		background-image: url('./images/bg-mobile.svg');
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-origin: border-box;
 		flex-direction: column;
+		height: auto;
 	}
-	.logo-content {
-		margin: auto;
-		padding-left: 0px;
-	}
-	.left {
-		display: block;
+	.content {
+		padding: 50px;
 	}
 	.right {
-		display: block;
+		flex-direction: column;
+		text-align: center;
 	}
 }

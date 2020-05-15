@@ -9,7 +9,7 @@ function App() {
   return (
     <div className='landing'>
 			<div className='left'>
-				<div className='logo-content'>
+				<div className='content'>
 					<Logo />
 					<Mockup />
 				</div>

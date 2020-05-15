@@ -3,7 +3,7 @@ import './Icons.css'
 
 const Icons = () => {
 	return (
-		<div className='socialicons'>
+		<div className='icons'>
 			<a href="https://facebook.com">
 				<div className='icon'>
 					<i class="fab fa-facebook-f"></i>

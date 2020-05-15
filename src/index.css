@@ -3,9 +3,12 @@ body {
 	background-image: url('./images/bg-desktop.svg');
 	background-size: 100% auto;
 	margin: 0;
-	height: 100%;
 	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
 		'Droid Sans', 'Helvetica Neue', sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+	height: 100vh;
 }

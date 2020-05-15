@@ -2,19 +2,12 @@
 	margin: auto;
 }
 
-.mockup img {
-	height: auto;
+.mockups img {
 	max-width: 100%;
 	vertical-align: middle;
 }
 
-@media screen and (max-width: 768px) {
-	.mockups {
-		margin: auto;
-	}
-	.mockup img {
-		width: 30%;
-		height: auto;
-		vertical-align: middle;
-	}
+.mockups img[width],
+.mockups img[height] {
+	max-width: none;
 }
